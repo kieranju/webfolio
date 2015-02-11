@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+0.1 - Tweaks
+--------------------------------------------------------------*/
+
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.disable-hover { pointer-events: none; }
+
+// Customization of text-selection in some browsers
+// ::-moz-selection { }
+// ::selection { }
+
+// Removes "view password eye" and "clear input" buttons on form inputs in IE
+// ::-ms-reveal { display: none; }
+// ::-ms-clear { display: none; }
+
+/*--------------------------------------------------------------
+0.2 - Mixins and Extensions
+--------------------------------------------------------------*/
+
+@mixin breakpoint($point) {
+    @if $point == large {
+        @media (max-width: 1000px) { @content; }
+    }
+    @else if $point == medium {
+        @media (max-width: 650px)  { @content; }
+    }
+    @else if $point == small {
+        @media (max-width: 380px)  { @content; }
+    }
+}
