@@ -1,6 +1,5 @@
 var scrollTimer = 0;
 
-
 function addClass(className) {
     $(this).addClass(className);
 }
@@ -26,7 +25,6 @@ function inView(className, callback) {
         }
     });
 }
-
 
 // initial elements on screen
 inView(".proj-group", addClass, "proj-group-view");
