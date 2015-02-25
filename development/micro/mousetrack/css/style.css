@@ -1,0 +1,40 @@
+html, body, main {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+#point {
+    position: relative;
+    top: 75%;
+    left: -19px;
+    margin: 0 auto;
+    width: 1px;
+}
+
+#mt-contain {
+    position: relative;
+    top: calc(50% - 100px);
+    overflow: hidden;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background: #efefef;
+    box-shadow: 0px 0px 10px white;
+}
+
+#mt-mouse {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: -29px;
+    margin-left: -19px;
+}
+
+#mt-grad1, #mt-grad2 {
+    display: none;
+}
