@@ -1,0 +1,9 @@
+#logo-svg {
+    display: none;
+}
+
+#logo-svg.path path {
+    fill: transparent;
+    stroke: black;
+	stroke-width: 1.2;
+}
