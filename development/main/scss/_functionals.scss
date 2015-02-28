@@ -20,7 +20,7 @@
 
 @mixin breakpoint($point) {
     @if $point == large {
-        @media (max-width: 1000px) { @content; }
+        @media (max-width: 1120px) { @content; }
     }
     @else if $point == medium {
         @media (max-width: 650px)  { @content; }

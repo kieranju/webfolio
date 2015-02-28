@@ -60,19 +60,10 @@ a, a:visited, a:active {
 }
 
 #projects-header {
+    position: relative;
     width: 100%;
     height: 188px;
     background: url("../svg/blocks/proj-header.svg") top center no-repeat;
-}
-
-#projects-footer {
-    width: 100%;
-    height: 111px;
-    background: url("../svg/blocks/proj-footer.svg") top center no-repeat;
-}
-
-#projects-header {
-    position: relative;
     
     &:before, &:after {
         position: absolute;
@@ -242,9 +233,17 @@ a, a:visited, a:active {
     }
 }
 
+#projects-footer {
+    width: 100%;
+    height: 111px;
+    background: url("../svg/blocks/proj-footer.svg") top center no-repeat;
+}
+
 .block-panel {
     position: absolute;
     z-index: 20;
     width: inherit;
     height: 200px;
 }
+
+@import 'breakpoints';
