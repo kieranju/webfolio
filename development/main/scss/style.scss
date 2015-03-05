@@ -109,12 +109,10 @@ a, a:visited, a:active {
         vertical-align: top;
         
         .block-panel {
-            transform: perspective(150px);
             position: absolute;
             width: inherit;
             height: inherit;
         }
-        
         h2, p {
             position: relative;
             text-align: center;
@@ -131,7 +129,7 @@ a, a:visited, a:active {
             }
         }
         p {
-            top: 35%;
+            top: 37%;
             font-size: 14px;
             opacity: 0;
             transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,-90deg);
@@ -189,8 +187,9 @@ a, a:visited, a:active {
                 transform: translate3D(0px,$panel-h2-hover,0px);
             }
             & ~ p {
-                transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
                 opacity: 1;
+                transition: opacity 0.45s, transform 0.3s 0.1s;
+                transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
             }
             &:before { // outline border
                 position: absolute;
@@ -207,9 +206,9 @@ a, a:visited, a:active {
                 transform: translate3d(0px,$panel-h2-hover,0px);
             }
             p {
-                transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
                 opacity: 1;
                 transition: opacity 0.45s, transform 0.3s 0.1s;
+                transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
             }
             &:after {
                 // border-top: 10px solid #8b8eb0;

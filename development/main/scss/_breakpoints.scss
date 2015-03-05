@@ -45,7 +45,7 @@
                 font-size: 0px;
                 transition: border-color 0.3s, border-width 0.3s;
             }
-            &:nth-child(3n+2):after {
+            &:nth-child(3n+1):after {
                 display: none; // temp
                 
                 position: absolute;
@@ -58,7 +58,7 @@
                 cursor: pointer;
                 transition: border-top 0.6s;
             }
-            &:nth-child(3n+4):after {
+            &:nth-child(3n+3):after {
                 display: none; // temp
                 
                 position: absolute;
@@ -71,7 +71,7 @@
                 cursor: pointer;
                 transition: border-top 0.6s;
             }
-            &:nth-child(3n+3) {
+            &:nth-child(3n+2) {
                 margin: 0px 0px;
                 background: #828385;
                 
