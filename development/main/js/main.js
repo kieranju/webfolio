@@ -29,14 +29,14 @@ function inView(_className, _callback) {
 }
 
 // initial elements on screen
-//inView(".proj-group", addClass, "proj-group-view");
+//inView(".panel", addClass, "panel-view");
 
-//$(window).scroll(function() {
-//    inView(".proj-group", addClass, "proj-group-view");
-//    disableHover();
-//});
+$(window).scroll(function() {
+    //inView(".panel", addClass, "panel-view");
+    disableHover();
+});
 
-//$(window).resize(function() {
-//    inView(".proj-group", addClass, "proj-group-view");
-//    disableHover();
-//});
+$(window).resize(function() {
+    //inView(".panel", addClass, "panel-view");
+    disableHover();
+});
