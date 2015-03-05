@@ -23,9 +23,9 @@
         @media (max-width: 1120px) { @content; }
     }
     @else if $point == medium {
-        @media (max-width: 650px)  { @content; }
+        @media (max-width: 650px) { @content; }
     }
     @else if $point == small {
-        @media (max-width: 380px)  { @content; }
+        @media (max-width: 380px) { @content; }
     }
 }

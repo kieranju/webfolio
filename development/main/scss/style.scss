@@ -30,16 +30,16 @@ a, a:visited, a:active {
 }
 
 #header {
-    top: 11px;
     margin-top: 80px;
 }
 
 #footer {
-    bottom: 11px;
+    top: -22px;
     margin-bottom: 40px;
 }
 
 #header, #footer {
+    z-index: 0;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -92,7 +92,9 @@ a, a:visited, a:active {
 #projects {
     position: relative;
     margin: 0px auto;
+    top: -11px;
     width: 1100px;
+    z-index: 100;
 
     user-select: none;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
