@@ -5,7 +5,7 @@ $panel-p-hover: 0deg;
 }
 
 body {
-    animation: colour-fade-in 0.3s;
+    animation: colour-fade-in 0.35s;
 }
 
 #projects-header {
@@ -23,12 +23,10 @@ body {
     animation: trans-fade-in 1s;
 }
 
-// currently not animating psuedo
-// elements properly in chrome or ie.
 #projects {
     .panel {
-        opacity: 1;
-        transition: opacity 0.6s;
+        opacity: 0;
+        transition: opacity 0.7s;
     }
 }
 

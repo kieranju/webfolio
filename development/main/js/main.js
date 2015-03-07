@@ -29,14 +29,14 @@ function inView(_className, _callback) {
 }
 
 // initial elements on screen
-//inView(".panel", addClass, "panel-view");
+inView(".panel", addClass, "panel-view");
 
 $(window).scroll(function() {
-    //inView(".panel", addClass, "panel-view");
+    inView(".panel", addClass, "panel-view");
     disableHover();
 });
 
 $(window).resize(function() {
-    //inView(".panel", addClass, "panel-view");
+    inView(".panel", addClass, "panel-view");
     disableHover();
 });

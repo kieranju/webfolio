@@ -7,11 +7,11 @@
     #projects {
         top: 8px;
         width: 800px;
-         
+        
         .panel {
-            margin: 0px 0px;
+            margin: 0px;
             width: calc(50% - 2px);
-
+            
             h2 {
                 font-size: 19px;
             }
@@ -31,14 +31,30 @@
                 background: #828385;
             }
             
-            // first row left panel
+            // all pseudo panels
             
             &:nth-child(1):before,
-            &:nth-child(1):after { 
+            &:nth-child(1):after,
+            &:nth-child(2):before,
+            &:nth-child(2):after,
+            &:nth-last-child(1):before,
+            &:nth-last-child(1):after,
+            &:nth-last-child(2):before,
+            &:nth-last-child(2):after {
+                transform: translate3d(0px,0px,0px);
+            }
+            
+            // first row left panel, right panel
+            
+            &:nth-child(1):before,
+            &:nth-child(1):after,
+            &:nth-child(2):before, 
+            &:nth-child(2):after { 
                 position: absolute;
                 top: -10px;
                 display: block;
                 height: 10px;
+                border: none;
                 content: "";
                 cursor: pointer;
             }
@@ -53,18 +69,6 @@
                 width: 150px;
                 background: #828385;
             }
-            
-            // first row right panel
-            
-            &:nth-child(2):before, 
-            &:nth-child(2):after { 
-                position: absolute;
-                top: -10px;
-                display: block;
-                height: 10px;
-                content: "";
-                cursor: pointer;
-            }
             &:nth-child(2):after { 
                 right: 240px;
                 width: 10px;
@@ -76,47 +80,37 @@
                 width: 150px;
                 background: #828385;
             }
-            
-            // last row left panel
+
+            // last row left panel, right panel
             
             &:nth-last-child(2):before,
-            &:nth-last-child(2):after { 
+            &:nth-last-child(2):after,
+            &:nth-last-child(1):before, 
+            &:nth-last-child(1):after {
                 position: absolute;
                 bottom: -10px;
                 display: block;
                 height: 10px;
+                border: none;
                 content: "";
                 cursor: pointer;
             }
             &:nth-last-child(2):after {
                 left: 238px;
                 width: 10px;
-                border-left: 10px solid transparent;
                 border-top: 10px solid #828385;
+                border-left: 10px solid transparent;
             }
             &:nth-last-child(2):before {
                 left: 248px;
                 width: 150px;
                 background: #828385;
             }
-            
-            // last row right panel
-            
-            &:nth-last-child(1):before, 
-            &:nth-last-child(1):after { 
-                position: absolute;
-                bottom: -10px;
-                display: block;
-                height: 10px;
-                content: "";
-                cursor: pointer;
-            }
             &:nth-last-child(1):after { 
                 right: 240px;
                 width: 10px;
-                border-right: 10px solid transparent;
                 border-top: 10px solid #828385;
-                border-left: none;
+                border-right: 10px solid transparent;
             }
             &:nth-last-child(1):before {
                 right: 250px;
@@ -124,15 +118,21 @@
                 background: #828385;
             }
             
-            &:nth-child(2n+1) { // column one
-                margin: 0px 1px 2px 0px;
+            // column one, column two
+            
+            &:nth-child(2n+1) {
+                margin: 0px 2px 0px 0px;
+                
+                &:not(&:nth-last-child(2)) {
+                    margin-bottom: 2px;
+                }
             }
-            &:nth-child(2n) { // column two
-                margin: 0px 0px 2px 1px;
-            }
-            &:nth-last-child(2),
-            &:nth-last-child(1) {
-                margin-bottom: 0px;
+            &:nth-child(2n) {
+                margin: 0px 0px 0px 0px;
+                
+                &:not(&:nth-last-child(1)) {
+                    margin-bottom: 2px;
+                }
             }
         }
     }
