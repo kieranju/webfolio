@@ -95,10 +95,9 @@ a, a:visited, a:active {
 
 #projects {
     position: relative;
-    margin: 0px auto;
     top: -11px;
+    margin: 0px auto;
     width: 1100px;
-    z-index: 100;
 
     user-select: none;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -137,9 +136,9 @@ a, a:visited, a:active {
             top: 37%;
             font-size: 14px;
             opacity: 0;
+            transition: opacity 0.3s, transform 0s 0.3s;
             transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,-90deg);
             transform-origin: center 0%;
-            transition: opacity 0.3s, transform 0s 0.3s;
         }
         a {
             position: absolute;
@@ -203,7 +202,6 @@ a, a:visited, a:active {
         }
         
         &:hover, &:active {
-            // background: #8b8eb0;
             
             h2 {
                 transform: translate3d(0px,$panel-h2-hover,0px);
@@ -212,10 +210,6 @@ a, a:visited, a:active {
                 opacity: 1;
                 transition: opacity 0.45s, transform 0.3s 0.1s;
                 transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
-            }
-            &:after {
-                // border-top: 10px solid #8b8eb0;
-                // transition: border-top 0.4s;
             }
         }
     }

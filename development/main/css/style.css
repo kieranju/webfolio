@@ -407,88 +407,88 @@ body {
   opacity: 1; }
 
 @-webkit-keyframes colour-fade-in {
-  /* line 128, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 122, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     background: #ffffff; }
 
-  /* line 131, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 125, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     background: #fafafa; } }
 
 @keyframes colour-fade-in {
-  /* line 128, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 122, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     background: #ffffff; }
 
-  /* line 131, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 125, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     background: #fafafa; } }
 
 @-webkit-keyframes trans-fade-in {
-  /* line 137, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 131, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     opacity: 0; }
 
-  /* line 140, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 134, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     opacity: 1; } }
 
 @keyframes trans-fade-in {
-  /* line 137, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 131, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     opacity: 0; }
 
-  /* line 140, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 134, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     opacity: 1; } }
 
 @-webkit-keyframes trans-fade-left {
-  /* line 146, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 140, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     opacity: 1;
     -webkit-transform: translate3d(0px, 0px, 0px);
             transform: translate3d(0px, 0px, 0px); }
 
-  /* line 150, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 144, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     opacity: 1;
     -webkit-transform: translate3d(-400px, 0px, 0px);
             transform: translate3d(-400px, 0px, 0px); } }
 
 @keyframes trans-fade-left {
-  /* line 146, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 140, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     opacity: 1;
     -webkit-transform: translate3d(0px, 0px, 0px);
             transform: translate3d(0px, 0px, 0px); }
 
-  /* line 150, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 144, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     opacity: 1;
     -webkit-transform: translate3d(-400px, 0px, 0px);
             transform: translate3d(-400px, 0px, 0px); } }
 
 @-webkit-keyframes trans-fade-right {
-  /* line 157, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 151, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     opacity: 1;
     -webkit-transform: translate3d(0px, 0px, 0px);
             transform: translate3d(0px, 0px, 0px); }
 
-  /* line 161, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 155, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     opacity: 1;
     -webkit-transform: translate3d(400px, 0px, 0px);
             transform: translate3d(400px, 0px, 0px); } }
 
 @keyframes trans-fade-right {
-  /* line 157, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 151, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   0% {
     opacity: 1;
     -webkit-transform: translate3d(0px, 0px, 0px);
             transform: translate3d(0px, 0px, 0px); }
 
-  /* line 161, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
+  /* line 155, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/transitions */
   100% {
     opacity: 1;
     -webkit-transform: translate3d(400px, 0px, 0px);
@@ -580,10 +580,9 @@ a, a:visited, a:active {
 /* line 96, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
 #projects {
   position: relative;
-  margin: 0px auto;
   top: -11px;
+  margin: 0px auto;
   width: 1100px;
-  z-index: 100;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -592,7 +591,7 @@ a, a:visited, a:active {
   -webkit-touch-callout: none;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
-  /* line 108, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+  /* line 107, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
   #projects .panel {
     display: inline-block;
     margin: 0px;
@@ -600,17 +599,17 @@ a, a:visited, a:active {
     height: 200px;
     background: #828385;
     vertical-align: top; }
-    /* line 116, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 115, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel .block-panel {
       position: absolute;
       width: inherit;
       height: inherit; }
-    /* line 121, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 120, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel h2, #projects .panel p {
       position: relative;
       text-align: center;
       font-family: 'Open Sans', sans-serif; }
-    /* line 126, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 125, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel h2 {
       top: 50%;
       font-weight: 300;
@@ -620,22 +619,22 @@ a, a:visited, a:active {
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
               transform: translateY(-50%); }
-      /* line 132, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+      /* line 131, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
       #projects .panel h2 span {
         font-weight: 400; }
-    /* line 136, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 135, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel p {
       top: 37%;
       font-size: 14px;
       opacity: 0;
+      transition: opacity 0.3s, -webkit-transform 0s 0.3s;
+      transition: opacity 0.3s, transform 0s 0.3s;
       -webkit-transform: perspective(1000px) translate3D(0px, 0px, 0px) rotate3d(1, 0, 0, -90deg);
               transform: perspective(1000px) translate3D(0px, 0px, 0px) rotate3d(1, 0, 0, -90deg);
       -webkit-transform-origin: center 0%;
           -ms-transform-origin: center 0%;
-              transform-origin: center 0%;
-      transition: opacity 0.3s, -webkit-transform 0s 0.3s;
-      transition: opacity 0.3s, transform 0s 0.3s; }
-    /* line 144, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+              transform-origin: center 0%; }
+    /* line 143, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel a {
       position: absolute;
       z-index: 30;
@@ -644,7 +643,7 @@ a, a:visited, a:active {
       background: rgba(0, 0, 0, 0.001);
       font-size: 0px;
       transition: border-color 0.3s, border-width 0.3s; }
-      /* line 153, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+      /* line 152, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
       #projects .panel a:before {
         position: absolute;
         top: 5px;
@@ -654,7 +653,7 @@ a, a:visited, a:active {
         border: 0px solid rgba(0, 0, 0, 0);
         content: "";
         transition: border-color 0.3s, border-width 0.3s; }
-    /* line 161, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 160, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel:nth-child(3n+1):after {
       position: absolute;
       left: 366px;
@@ -664,7 +663,7 @@ a, a:visited, a:active {
       border-right: 10px solid #6c6d6f;
       content: "";
       cursor: pointer; }
-    /* line 171, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 170, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel:nth-child(3n+3):after {
       position: absolute;
       right: 367px;
@@ -674,36 +673,36 @@ a, a:visited, a:active {
       border-left: 10px solid #6c6d6f;
       content: "";
       cursor: pointer; }
-    /* line 181, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 180, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel:nth-child(3n+2) {
       margin: 10px 0px;
       background: #868789; }
-    /* line 186, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 185, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel a:focus {
       outline: 0; }
-      /* line 189, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+      /* line 188, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
       #projects .panel a:focus ~ h2 {
         -webkit-transform: translate3D(0px, -27px, 0px);
             -ms-transform: translate3D(0px, -27px, 0px);
                 transform: translate3D(0px, -27px, 0px); }
-      /* line 192, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+      /* line 191, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
       #projects .panel a:focus ~ p {
         opacity: 1;
         transition: opacity 0.45s, -webkit-transform 0.3s 0.1s;
         transition: opacity 0.45s, transform 0.3s 0.1s;
         -webkit-transform: perspective(1000px) translate3D(0px, 0px, 0px) rotate3d(1, 0, 0, 0deg);
                 transform: perspective(1000px) translate3D(0px, 0px, 0px) rotate3d(1, 0, 0, 0deg); }
-      /* line 197, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+      /* line 196, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
       #projects .panel a:focus:before {
         position: absolute;
         border: 3px solid #dadbe2;
         content: "";
         transition: border-color 0.3s, border-width 0.3s; }
-    /* line 208, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 206, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel:hover h2, #projects .panel:active h2 {
       -webkit-transform: translate3d(0px, -27px, 0px);
               transform: translate3d(0px, -27px, 0px); }
-    /* line 211, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+    /* line 209, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
     #projects .panel:hover p, #projects .panel:active p {
       opacity: 1;
       transition: opacity 0.45s, -webkit-transform 0.3s 0.1s;
@@ -711,7 +710,7 @@ a, a:visited, a:active {
       -webkit-transform: perspective(1000px) translate3D(0px, 0px, 0px) rotate3d(1, 0, 0, 0deg);
               transform: perspective(1000px) translate3D(0px, 0px, 0px) rotate3d(1, 0, 0, 0deg); }
 
-/* line 224, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
+/* line 218, C:/Users/Kieran/Desktop/omni/git/webfolio/development/main/scss/style.scss */
 #projects-footer {
   height: 111px;
   background: url("../svg/blocks/proj-footer.svg") top center no-repeat; }
