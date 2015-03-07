@@ -15,8 +15,11 @@
 // ::-ms-clear { display: none; }
 
 /*--------------------------------------------------------------
-0.2 - Mixins and Extensions
+0.2 - Mixins, Variables
 --------------------------------------------------------------*/
+
+$panel-h2-hover: -27px;
+$panel-p-hover: 0deg;
 
 @mixin breakpoint($point) {
     @if $point == large {
