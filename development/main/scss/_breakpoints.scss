@@ -137,3 +137,15 @@
         }
     }
 }
+
+@include breakpoint(medium) {
+    #projects {
+        width: auto;
+        max-width: 800px;
+
+        .panel {
+            margin: 0px;
+            width: calc(50% - 2px);
+        }
+    }
+}
