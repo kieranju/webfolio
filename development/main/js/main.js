@@ -13,7 +13,6 @@ function disableHover() {
     }, 350);
 }
 
-// callback fires when an element is in view
 function inView(_className, _callback) {
     var args = Array.prototype.slice.call(arguments);
     args.splice(0,2);

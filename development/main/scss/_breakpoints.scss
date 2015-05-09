@@ -121,17 +121,17 @@
             // column one, column two
             
             &:nth-child(2n+1) {
-                margin: 0px 2px 0px 0px;
+                margin: 0px 2px 2px 0px;
                 
-                &:not(&:nth-last-child(2)) {
-                    margin-bottom: 2px;
+                &:nth-last-child(2) {
+                    margin-bottom: 0px;
                 }
             }
             &:nth-child(2n) {
-                margin: 0px 0px 0px 0px;
+                margin: 0px 0px 2px 0px;
                 
-                &:not(&:nth-last-child(1)) {
-                    margin-bottom: 2px;
+                &:nth-last-child(1) {
+                    margin-bottom: 0px;
                 }
             }
         }
@@ -139,13 +139,29 @@
 }
 
 @include breakpoint(medium) {
+
     #projects {
         width: auto;
-        max-width: 800px;
+        max-width: 400px;
 
         .panel {
-            margin: 0px;
-            width: calc(50% - 2px);
+            margin: 0px !important;
+            width: 100%;
+
+            &:not(:last-child) {
+                margin-bottom: 2px !important;
+            }
+
+            &:nth-child(1):before,
+            &:nth-child(1):after,
+            &:nth-child(2):before, 
+            &:nth-child(2):after,
+            &:nth-last-child(2):before,
+            &:nth-last-child(2):after,
+            &:nth-last-child(1):before, 
+            &:nth-last-child(1):after { 
+                display: none;
+            }
         }
     }
 }
