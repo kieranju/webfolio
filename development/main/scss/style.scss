@@ -78,6 +78,21 @@ a, a:visited, a:active {
     -webkit-touch-callout: none;
     backface-visibility: hidden;
 
+    &:before {
+        content: '';
+        position: absolute;
+        // background: url("../svg/emborder/inner-left.svg");
+        // width: 33px;
+        // height: 152px;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        // background: url("../svg/emborder/inner-left.svg");
+        // width: 33px;
+        // height: 152px;
+    }
+
     .panel {
         display: inline-block;
         margin: 0px;
