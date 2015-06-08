@@ -18,6 +18,7 @@ html {
 
 body {
     background: #fafafa;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, a, p {
@@ -78,19 +79,22 @@ a, a:visited, a:active {
     -webkit-touch-callout: none;
     backface-visibility: hidden;
 
-    &:before {
+    &:before, &:after {
         content: '';
         position: absolute;
-        // background: url("../svg/emborder/inner-left.svg");
-        // width: 33px;
-        // height: 152px;
+        background: url("../svg/frame/frame-left.svg");
+        width: 123px;
+        height: 498px;
+        top: -50px;
+        transition: transform 0.3s;
+    }
+    &:before {
+        left: -50px;
+        transform: translate3D(-50px, -50px, 0px);
     }
     &:after {
-        content: '';
-        position: absolute;
-        // background: url("../svg/emborder/inner-left.svg");
-        // width: 33px;
-        // height: 152px;
+        right: -50px;
+        transform: translate3D(50px, -50px, 0px) scaleX(-1);
     }
 
     .panel {

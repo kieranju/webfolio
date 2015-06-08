@@ -1,26 +1,39 @@
-@include breakpoint(large) {
-    
-    #footer {
-        top: 17px;
-    }
-    
+@include breakpoint(xlarge) {
+
     #projects {
-        top: 8px;
+        &:before {
+            transform: translate3D(0px, 0px, 0px);
+        }
+        &:after {
+            transform: translate3D(0px, 0px, 0px) scaleX(-1);
+        }
+    }
+
+}
+
+@include breakpoint(large) {
+
+    #footer {
+        top: 18px;
+    }
+
+    #projects {
+        top: 9px;
         width: 800px;
-        
+
         .panel {
             margin: 0px;
             width: calc(50% - 2px);
-            
+
             h2 {
                 font-size: 19px;
             }
             p {
                 font-size: 13px;
             }
-            
+
             // hide mid-tile & other stylings
-            
+
             &:nth-child(3n+1):after {
                 display: none;
             }
@@ -30,9 +43,9 @@
             &:nth-child(3n+2) {
                 background: #828385;
             }
-            
+
             // all pseudo panels
-            
+
             &:nth-child(1):before,
             &:nth-child(1):after,
             &:nth-child(2):before,
@@ -43,13 +56,13 @@
             &:nth-last-child(2):after {
                 transform: translate3d(0px,0px,0px);
             }
-            
+
             // first row left panel, right panel
-            
+
             &:nth-child(1):before,
             &:nth-child(1):after,
-            &:nth-child(2):before, 
-            &:nth-child(2):after { 
+            &:nth-child(2):before,
+            &:nth-child(2):after {
                 position: absolute;
                 top: -10px;
                 display: block;
@@ -69,7 +82,7 @@
                 width: 150px;
                 background: #828385;
             }
-            &:nth-child(2):after { 
+            &:nth-child(2):after {
                 right: 240px;
                 width: 10px;
                 border-top: 10px solid transparent;
@@ -82,10 +95,10 @@
             }
 
             // last row left panel, right panel
-            
+
             &:nth-last-child(2):before,
             &:nth-last-child(2):after,
-            &:nth-last-child(1):before, 
+            &:nth-last-child(1):before,
             &:nth-last-child(1):after {
                 position: absolute;
                 bottom: -10px;
@@ -106,7 +119,7 @@
                 width: 150px;
                 background: #828385;
             }
-            &:nth-last-child(1):after { 
+            &:nth-last-child(1):after {
                 right: 240px;
                 width: 10px;
                 border-top: 10px solid #828385;
@@ -117,19 +130,19 @@
                 width: 150px;
                 background: #828385;
             }
-            
+
             // column one, column two
-            
+
             &:nth-child(2n+1) {
                 margin: 0px 2px 2px 0px;
-                
+
                 &:nth-last-child(2) {
                     margin-bottom: 0px;
                 }
             }
             &:nth-child(2n) {
                 margin: 0px 0px 2px 0px;
-                
+
                 &:nth-last-child(1) {
                     margin-bottom: 0px;
                 }
@@ -140,7 +153,12 @@
 
 @include breakpoint(medium) {
 
+    #footer {
+        top: -2px;
+    }
+
     #projects {
+        top: -1px;
         width: auto;
         max-width: 400px;
 
@@ -154,12 +172,12 @@
 
             &:nth-child(1):before,
             &:nth-child(1):after,
-            &:nth-child(2):before, 
+            &:nth-child(2):before,
             &:nth-child(2):after,
             &:nth-last-child(2):before,
             &:nth-last-child(2):after,
-            &:nth-last-child(1):before, 
-            &:nth-last-child(1):after { 
+            &:nth-last-child(1):before,
+            &:nth-last-child(1):after {
                 display: none;
             }
         }

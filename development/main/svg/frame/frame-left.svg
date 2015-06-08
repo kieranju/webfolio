@@ -1,0 +1,25 @@
+<svg class="frame" id="frame-left" width="123" height="498" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M9.7,20L9,20.7l8.2,8.2l0.7-0.7L9.7,20" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M20.2,1l8,8L29,8.3l-8-8L20.2,1z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M20,0h1v9.7h-1V0z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M0,20h9.7v1H0V20z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M28,8.3h1V47h-1V8.3z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M1,20.3L0.3,21l8,8L9,28.3l-7.7-7.7" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M20.7,9L20,9.7l8.1,8.1l0.7-0.7L20.7,9" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M8.3,28H47v1H8.3V28z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M8,46h21v1H8V46z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M8,39h1v8H8V39z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M8,38h9v1H8V38z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M16,39h1v8h-1V39z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M46,8h1v21h-1V8z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M39,8h8v1h-8V8z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M38,8h1v9h-1V8z" />
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#AFB0B3" d="M39,16h78v1H39V16z" />
+    <g><path fill="#AFB0B3" d="M9,1v8H1V1H9 M10,0H0v10h10V0L10,0z" /></g>
+    <g><path fill="#AFB0B3" d="M119.5,14.4l2.1,2.1l-2.1,2.1l-2.1-2.1L119.5,14.4 M119.5,13l-3.5,3.5l3.5,3.5l3.5-3.5L119.5,13L119.5,13z" /></g>
+    <linearGradient id="vertical" gradientUnits="userSpaceOnUse" x1="-96.5" y1="385.4999" x2="129.5" y2="159.5">
+    	<stop offset="0" style="stop-color:#AFB0B3;stop-opacity:0"/>
+    	<stop offset="1" style="stop-color:#AFB0B3"/>
+    </linearGradient>
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#vertical)" d="M16,47h1v451h-1V47z"/>
+</svg>

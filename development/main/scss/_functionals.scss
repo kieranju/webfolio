@@ -22,7 +22,10 @@ $panel-h2-hover: -27px;
 $panel-p-hover: 0deg;
 
 @mixin breakpoint($point) {
-    @if $point == large {
+    @if $point == xlarge {
+        @media (max-width: 1340px) { @content; }
+    }
+    @else if $point == large {
         @media (max-width: 1120px) { @content; }
     }
     @else if $point == medium {

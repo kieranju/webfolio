@@ -3,14 +3,14 @@ body {
 }
 
 #header {
-    animation: trans-fade-in 1.7s;
+    animation: trans-fade-in 1s;
 }
 #footer {
-    animation: trans-fade-in 1.7s;
+    animation: trans-fade-in 1s;
 }
 .panel {
     opacity: 0;
-    transition: opacity 1.15s;
+    transition: opacity 1s;
 }
 .panel-view {
     opacity: 1;
