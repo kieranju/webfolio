@@ -1,0 +1,16 @@
+<svg id="panel-selector" width="74" height="27" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M19.5,25.8l-0.7,0.7L6,13.7L6.7,13L19.5,25.8"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M6,25.7l0.7,0.7L26.4,6.7L25.7,6L6.9,24.8"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M7.4,25.7l-0.7,0.7L0,19.7L0.7,19L7.4,25.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M0,19.7l0.7,0.7l6.7-6.7L6.7,13L0,19.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M33.5,25.8l-0.7,0.7L13,6.7L13.7,6L33.5,25.8"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M26.4,6.7l-0.7,0.7L19,0.7L19.7,0L26.4,6.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M13,6.7l0.8,0.6l6.5-6.5L19.7,0L13,6.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M53.9,25.8l0.7,0.7l12.7-12.7l-0.7-0.7L53.9,25.8"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M66.7,25L66,25.7l-19-19L47.7,6l18.8,18.8"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M66,25.7l0.7,0.7l6.7-6.7L72.7,19L66,25.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M73.2,19.5l-0.7,0.7L66,13.7l0.7-0.7L73.2,19.5"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M39.9,25.8l0.7,0.7L60.1,7.1L59.7,6L39.9,25.8"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M47,6.7l0.7,0.7l6.7-6.7L53.7,0L47,6.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAFAFA" d="M60.4,6.7l-0.7,0.7L53,0.7L53.7,0L60.4,6.7"/>
+</svg>

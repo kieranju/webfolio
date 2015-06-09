@@ -102,8 +102,9 @@ a, a:visited, a:active {
         margin: 0px;
         width: 33.3%;
         height: 200px;
-        background: #828385;
+        background: linear-gradient(to right, rgba(130,131,133,1) 0%, rgba(130,131,133,1) 100%);
         vertical-align: top;
+        transition: background 0.3s;
 
         .block-panel {
             position: absolute;
@@ -140,13 +141,14 @@ a, a:visited, a:active {
             height: 100%;
             background: rgba(0,0,0,0.001); // IE
             font-size: 0px;
+            overflow: hidden;
             transition: border-color 0.3s, border-width 0.3s;
 
             &:before {
                 position: absolute;
-                top: 5px; right: 5px; bottom: 5px; left: 5px;
+                top: 7px; right: 7px; bottom: 7px; left: 7px;
                 border: 0px solid rgba(0,0,0,0);
-                content: "";
+                content: '';
                 transition: border-color 0.3s, border-width 0.3s;
             }
         }
@@ -186,24 +188,28 @@ a, a:visited, a:active {
                 transition: opacity 0.45s, transform 0.3s 0.1s;
                 transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
             }
+
             &:before { // outline border
                 position: absolute;
                 border: 3px solid #dadbe2;
                 content: "";
-                transition: border-color 0.3s, border-width 0.3s;
+                transition: border-color 0.5s;
             }
         }
 
         &:hover, &:active {
 
             h2 {
-                transform: translate3d(0px,$panel-h2-hover,0px);
+                transform: translate3D(0px,$panel-h2-hover,0px);
             }
             p {
                 opacity: 1;
                 transition: opacity 0.45s, transform 0.3s 0.1s;
                 transform: perspective(1000px) translate3D(0px,0px,0px) rotate3d(1,0,0,$panel-p-hover);
             }
+
+            @import 'projectbg';
+
         }
     }
 }
