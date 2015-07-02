@@ -118,6 +118,8 @@ a, a:visited, a:active {
         }
         h2 {
             top: 50%;
+            z-index: 100;
+            pointer-events: none;
             font-weight: 300;
             font-size: 20px;
             transition: transform 0.3s;
@@ -128,6 +130,8 @@ a, a:visited, a:active {
         }
         p {
             top: 37%;
+            z-index: 100;
+            pointer-events: none;
             font-size: 14px;
             opacity: 0;
             transition: opacity 0.3s, transform 0s 0.3s;
@@ -143,6 +147,7 @@ a, a:visited, a:active {
             font-size: 0px;
             overflow: hidden;
             transition: border-color 0.3s, border-width 0.3s;
+            background: radial-gradient(ellipse at center, rgba(130,131,133,0) 0%, rgba(130,131,133,1) 80%, rgba(130,131,133,1) 85%);
 
             &:before {
                 position: absolute;
@@ -174,7 +179,11 @@ a, a:visited, a:active {
         }
         &:nth-child(3n+2) {
             margin: 10px 0px;
-            background: #868789;
+            background: linear-gradient(to right, rgba(134,135,137,1) 0%, rgba(134,135,137,1) 100%);
+
+            a {
+                background: radial-gradient(ellipse at center, rgba(134,135,137,0) 0%, rgba(134,135,137,1) 80%, rgba(134,135,137,1) 85%) !important;
+            }
         }
 
         a:focus {

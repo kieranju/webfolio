@@ -41,7 +41,11 @@
                 display: none;
             }
             &:nth-child(3n+2) {
-                background: #828385;
+                background: linear-gradient(to right, rgba(130,131,133,1) 0%, rgba(130,131,133,1) 100%);
+
+                a {
+                    background: radial-gradient(ellipse at center, rgba(130,131,133,0) 0%, rgba(130,131,133,1) 80%, rgba(130,131,133,1) 85%) !important;
+                }
             }
 
             // all pseudo panels
@@ -96,10 +100,10 @@
 
             // last row left panel, right panel
 
-            &:nth-last-child(2):before,
-            &:nth-last-child(2):after,
-            &:nth-last-child(1):before,
-            &:nth-last-child(1):after {
+            &:nth-last-of-type(2):before,
+            &:nth-last-of-type(2):after,
+            &:nth-last-of-type(1):before,
+            &:nth-last-of-type(1):after {
                 position: absolute;
                 bottom: -10px;
                 display: block;
@@ -108,24 +112,24 @@
                 content: "";
                 cursor: pointer;
             }
-            &:nth-last-child(2):after {
+            &:nth-last-of-type(2):after {
                 left: 238px;
                 width: 10px;
                 border-top: 10px solid #828385;
                 border-left: 10px solid transparent;
             }
-            &:nth-last-child(2):before {
+            &:nth-last-of-type(2):before {
                 left: 248px;
                 width: 150px;
                 background: #828385;
             }
-            &:nth-last-child(1):after {
+            &:nth-last-of-type(1):after {
                 right: 240px;
                 width: 10px;
                 border-top: 10px solid #828385;
                 border-right: 10px solid transparent;
             }
-            &:nth-last-child(1):before {
+            &:nth-last-of-type(1):before {
                 right: 250px;
                 width: 150px;
                 background: #828385;
