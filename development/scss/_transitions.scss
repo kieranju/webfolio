@@ -25,14 +25,13 @@ body {
         animation-timing-function: cubic-bezier(0.39, 0, 0, 1);
     }
 }
-.panel {
-    opacity: 0;
-
-}
-.panel-view {
-    opacity: 1;
-
-}
+// .panel {
+//     opacity: 0;
+//     transition: opacity 0.3s;
+// }
+// .panel-view {
+//     opacity: 1;
+// }
 
 @keyframes colour-fade-in {
     0% {
