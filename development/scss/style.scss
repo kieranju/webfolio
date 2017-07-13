@@ -126,6 +126,8 @@ a, a:visited, a:active {
             font-size: 19px;
             transition: transform 0.3s;
             transform: translateY(-50%);
+            -webkit-font-smoothing: antialiased;
+            
             span {
                 font-weight: 400;
             }
