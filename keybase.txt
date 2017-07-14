@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/kieranju
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kieranju.com
+  * I am kieranju (https://keybase.io/kieranju) on keybase.
+  * I have a public key with fingerprint BC09 7425 AE3B FC03 8C74  289B C819 1622 49C9 40C2
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;0101112cac8041c474d4e92208e30b7a6514747578682a40da343db9b7d973cf04380a&quot;,
+            &quot;fingerprint&quot;: &quot;bc097425ae3bfc038c74289bc819162249c940c2&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;key_id&quot;: &quot;c819162249c940c2&quot;,
+            &quot;kid&quot;: &quot;0101112cac8041c474d4e92208e30b7a6514747578682a40da343db9b7d973cf04380a&quot;,
+            &quot;uid&quot;: &quot;eec96d9d961c25a33ecf838d2781e419&quot;,
+            &quot;username&quot;: &quot;kieranju&quot;
+        },
+        &quot;merkle_root&quot;: {
+            &quot;ctime&quot;: 1500055562,
+            &quot;hash_meta&quot;: &quot;12cd9e3d678d4b1940859450b94e9450d7c425aca222941687735a3c5e81d508&quot;,
+            &quot;seqno&quot;: 1233113
+        },
+        &quot;revoke&quot;: {
+            &quot;sig_ids&quot;: [
+                &quot;d1e0b368fd49a4f6e00160b15de894d56565d1ad6e98510cc02984e55ee80aa30f&quot;
+            ]
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;kieranju.com&quot;,
+            &quot;protocol&quot;: &quot;http:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;ctime&quot;: 1500055566,
+    &quot;expire_in&quot;: 157680000,
+    &quot;prev&quot;: &quot;a1b658910d57ccdcb4f1b70d98f8ee73620a03856a891c58542d4131060cad6a&quot;,
+    &quot;seqno&quot;: 26,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMK3AnicrVNPbBVFHH4PEUoJiJCYWiLI4qFK85zZ+bMzLyAmQsAExQRjKALP2Znf
+tutr3z539z1sa1GLJ0zUg4iYSGhiNUCINZqIIZqmUD0UTXpAL0WRetCCNpgabezB
+2UZjQjyaOUxm5vt93/f7ZubCsltyjfkpvXqg8e7xH/NjI7Vari1sWN7r+JHpdoq9
+ThnmJ+g0kKSlcmicooMwwhi7WmmBKNbUo4aCdF0kgCDfU5xhu+cxT3DhKoqMIpQY
+X/qekR7RAaJEIOW0OkFYaYe4GoeV1NL6GkmPukwB8QONiNB2JaSvBZaYuy6VWlKk
+XVvYESVZhTXnqwQKYWT37KI0b+8/8P+z79o8HYCW3EgjOdbWNSGgA0GEcT2BgWKZ
+AROIK6oLMq8hxKrydM3pa3W6IC53QimOojQLV6dhBsEMIcQY465tUCUdpS5Ila20
+jo0EYrgnDPWx7UkwSRnypXVvZ+PpLDWtXNeVFHPhecTa0QwENgwJ6yOBZyqRVXAJ
+wZhYBzHUozJk4knYbmNLnOKTjsGAfMJFYKhUNOCAEObIx8yAkNQwbofBynCQgmGk
+NXKloMAYgM1FERQ4+/oysbge6nny7J5u6r+goy7rqBpHaaSjTnvSkabVYhZL2l3N
+kAfAL/3NUfLDirGPxBbUIU7CqGKbsMibE+OtDjxbDWMohRmCeVzYE5TJQN1SKuxz
+JiRGhnlaG+3TAPseMlIEAsAj3EXKPjjGlQVpJhh1DcUEI4607Vf9G6FrpVLVbjlt
+cBWV1mJw+kaG9y7M5Rtzi25dkP2eXOOSFf/8qU+HF88tPbn2rYf3PHW9+dr44+ff
+fHDTL80nfh3/aemZwffC87sS/dlYy8679p8bbR6eati9uvueVZe+qS87+tgd245s
+EK9fPVZYUfjwYs0ZWLlmamZB29jXi5tmH1JDO868P9nzxcH95+4dmsnPPtA0vXPu
+6uXLQxM3Nn7y/TR75bC3g68r9b6TPnFg5tv+P9fkjy/sF8MN9Pfe9Rc3n1brRj9/
+qeWPD6p7w9cmtt235dDzb8crX22Z1Gqkv+foyS8H913ZfvzasQ3ry4/efueV55as
+Orv1enF27Y2tc7e9MPnRosLyj99o2PLz5p7K4bazB9/d9d2gN3NpfPrCxO7R5JGX
+58z97b/98OLGptFNXw3sOXJq+6G/AL86e5I=
+=3cJJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kieranju
+
+==================================================================
